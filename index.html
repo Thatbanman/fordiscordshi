@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Video Library</h1>
+      <p class="page-header__subtitle">Browse, watch, and share files from the local <code>videos</code> folder.</p>
+    </header>
+
+    <main>
+      <section id="status" role="alert" class="status-banner" hidden></section>
+      <section id="video-list" class="video-grid" aria-live="polite"></section>
+    </main>
+
+    <template id="video-card-template">
+      <article class="video-card">
+        <button type="button" class="video-card__title"></button>
+        <video class="video-card__player" controls preload="none"></video>
+        <div class="video-card__actions">
+          <a class="video-card__download" download>Download</a>
+          <button type="button" class="video-card__copy">Copy Link</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
