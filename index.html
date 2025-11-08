@@ -20,6 +20,9 @@
     <template id="video-card-template">
       <article class="video-card">
         <button type="button" class="video-card__title"></button>
+        <div class="video-card__nsfw-warning" hidden>
+          <p>NSFW content hidden. Click the title to reveal the preview.</p>
+        </div>
         <video class="video-card__player" controls preload="none"></video>
         <div class="video-card__actions">
           <a class="video-card__download" download>Download</a>
