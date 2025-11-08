@@ -1,9 +1,10 @@
 {
   "files": [
-    "sample-video-1.mp4",
+    "rockhardkira.mp4",
     {
-      "name": "sample-video-2.mp4",
-      "poster": "thumbnails/sample-video-2.jpg"
+      "name": "rockhardkira.mp4",
+      "poster": "thumbnails/rockhardkira.mp4"
     }
   ]
 }
+
