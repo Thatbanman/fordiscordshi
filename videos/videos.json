@@ -1,12 +1,16 @@
 {
   "files": [
     "rockhardkira.mp4",
+    "tuffahwave.mp4",
     {
       "name": "rockhardkira.mp4",
       "poster": "thumbnails/rockhardkira.mp4"
-    }
+    },
+    { "name": "tuffahwave.mp4",
+      "poster": "thumbnails/tuffahwave.mp4"}
   ]
 }
+
 
 
 
